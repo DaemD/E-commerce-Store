@@ -1,0 +1,33 @@
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\appsettings.Development.json
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\appsettings.json
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\E-commerce store(new).staticwebassets.runtime.json
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\E-commerce store(new).exe
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\E-commerce store(new).deps.json
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\E-commerce store(new).runtimeconfig.json
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\E-commerce store(new).dll
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\E-commerce store(new).pdb
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).csproj.AssemblyReference.cache
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).GeneratedMSBuildEditorConfig.editorconfig
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).AssemblyInfoInputs.cache
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).AssemblyInfo.cs
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).csproj.CoreCompileInputs.cache
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).MvcApplicationPartsAssemblyInfo.cache
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).RazorAssemblyInfo.cache
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).RazorAssemblyInfo.cs
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\staticwebassets.build.json
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\staticwebassets.development.json
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\scopedcss\bundle\E-commerce store(new).styles.css
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\scopedcss\projectbundle\E-commerce store(new).bundle.scp.css
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).dll
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\refint\E-commerce store(new).dll
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).pdb
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).genruntimeconfig.cache
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\ref\E-commerce store(new).dll
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\E-commerce store(new)\E-commerce store(new)\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\E-commerce store(new)\E-commerce store(new)\obj\Debug\net6.0\E-commerce store(new).csproj.CopyComplete

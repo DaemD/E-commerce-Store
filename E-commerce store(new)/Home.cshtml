@@ -1,0 +1,313 @@
+﻿@page
+@model E_commerce_store_new_.HomeModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    /* Use a CSS reset to remove default margin and padding */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Set some default font styles */
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+    }
+
+    /* Style the header */
+    header {
+        background-color: rgb(0, 0, 0);
+        padding: 1rem;
+        padding-right: 20%;
+    }
+
+
+        header h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #007bff;
+        }
+
+    /* Style the navigation bar */
+
+    .nav {
+        display: flex;
+        justify-content: space-between; /* Or use space-around to add space around the items */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav__item {
+        margin: 0 10px; /* Add some margin between the links */
+    }
+
+    .nav__itemC {
+        margin: 0 10px; /* Add some margin between the links */
+        margin-left: 400%;
+    }
+
+    .nav__link {
+        text-decoration: none;
+        color: black;
+        color: #fff;
+        text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa
+    }
+
+    /* Style the main content area */
+
+    .main {
+        background-image: url("Dark Mountains [1800x3200].png");
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    #products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow-x: auto;
+    }
+
+        #products::-webkit-scrollbar {
+            width: 0.25rem;
+            background-color: transparent;
+        }
+
+        #products::-webkit-scrollbar-thumb {
+            background-color: rgba(0,0,0,0);
+        }
+
+    .product {
+        width: calc(33.33% - 1rem);
+        margin-bottom: 2rem;
+        background-color: rgb(44, 40, 40);
+        border-radius: 4px;
+        padding: 1rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-image: url("please.jfif");
+        background-size: cover;
+        background-position: center;
+    }
+
+
+
+        .product img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .product h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .product p {
+            font-size: 1rem;
+            color: #007bff;
+            margin-bottom: 1rem;
+        }
+
+    .add-to-cart {
+        display: block;
+        width: 100%;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 4px;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+        .add-to-cart:hover {
+            background-color: #0062cc;
+        }
+
+    #products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .product {
+        width: calc(33.33% - 1rem);
+        margin-bottom: 2rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 1rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .product {
+        flex: 0 0 auto;
+        margin-right: 20px;
+    }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .product h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .product p {
+            font-size: 1rem;
+            color: #007bff;
+            margin-bottom: 1rem;
+        }
+
+    .add-to-cart {
+        display: block;
+        width: 100%;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 4px;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+        .add-to-cart:hover {
+            background-color: #0062cc;
+        }
+
+    .container {
+        margin: 0 auto;
+        width: 10%;
+    }
+
+    .container2 {
+        margin: 0 auto;
+        width: 40%;
+    }
+
+
+    /* Style the footer */
+    footer {
+        background-color: #f8f9fa;
+        padding: 1rem;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #888;
+    }
+
+</style>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - E_commerce_store_new_</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/E_commerce_store_new_.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">E_commerce_store_new_</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            </div>
+        </nav>
+    </header>
+
+    <header class="header">
+
+        <div class="container">
+
+            <nav class="header__nav">
+                <ul class="nav">
+                    <li class="nav__item">
+                        <a class="nav__link" asp-area="" asp-page="/Layout">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" asp-area="" asp-page="/Contacts">Contacts</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" asp-area="" asp-page="/Login">Login</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" asp-area="" asp-page="/Products">Products</a>
+                    <li class="nav__itemC">
+                        <a class="nav__link" asp-area="" asp-page="/Cart">Cart</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+            <main class="main">
+        <div class="product-container">
+            @foreach (var item in Model.products)
+            {
+                <div class="product">
+                    <img src="@item.imageURL" alt="@item.name" class="product-image">
+                    <div class="product-info">
+                        <h3>@item.name</h3>
+                        <p>@item.description</p>
+                        <p>@item.price</p>
+                        <p>@item.stock</p>
+                        <form id="add-to-cart-form-@item.pid" class="add-to-cart-form" method="post" asp-page-handler="AddToCart">
+                            <input type="hidden" name="productId" id="productId-@item.pid" value="@item.pid" />
+                            <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+       
+
+        </main>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Lets Shop</p><
+        </div>
+    </footer>
+
+    <script src="app.js">
+
+
+    </script>
+
+
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - E_commerce_store_new_ - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    
+   
+</body>
+</html>
